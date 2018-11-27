@@ -10,7 +10,10 @@ public:
 	void Draw(wxPaintEvent &event);
 private:
 	wxBitmap *menuBitmap = nullptr;
+	wxBitmap *mulaiBitmap = nullptr;
+	wxBitmap *pengaturanBitmap = nullptr;
+	wxBitmap *caraBitmap = nullptr;
+	wxBitmap *keluarBitmap = nullptr;
 	DECLARE_EVENT_TABLE();
-	void LoadMenuBitmap();
 };
 
