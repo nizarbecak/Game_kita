@@ -121,13 +121,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Menu_Frame.cpp" />
     <ClCompile Include="Menu_Window.cpp" />
+    <ClCompile Include="Mulai_Frame.cpp" />
+    <ClCompile Include="Mulai_Window.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Menu_Frame.h" />
     <ClInclude Include="Menu_Window.h" />
+    <ClInclude Include="Mulai_Frame.h" />
+    <ClInclude Include="Mulai_Window.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
